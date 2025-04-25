@@ -2,13 +2,18 @@ body {
   background-color: #222222;
   color: #AA00FF;
   font-family: Helvetica;
-  text-align: center;
 }
 
 h1 {
   font-size-adjust: 1;
+  text-align: center;
+}
+
+p {
+  text-align: center;
 }
 
 img {
   position: absolute;
+  justify-content: start;
 }
