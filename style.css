@@ -19,14 +19,9 @@ img {
 }
 
 .nav {
-  background-color: #A8A8A8;
+  background-color: #151515;
   text-align: center;
   padding: 5px 10px;
   overflow: hidden;
-  color: 
-}
-
-.nav a:hover {
-  background-color: #AA00FF;
-  color: black;
+  color: #A8A8A8;
 }
