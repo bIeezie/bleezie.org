@@ -15,5 +15,5 @@ p {
 
 img {
   position: absolute;
-  justify-content: start;
+  justify-content: flex-start;
 }
