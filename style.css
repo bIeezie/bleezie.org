@@ -2,6 +2,7 @@ body {
   background-color: #222222;
   color: #AA00FF;
   font-family: Helvetica;
+  text-align: center;
 }
 
 h1 {
@@ -10,10 +11,17 @@ h1 {
 }
 
 p {
-  text-align: center;
+  text-align: left;
 }
 
 img {
   position: absolute;
-  justify-content: start;
+}
+
+.nav {
+  background-color: #191919;
+  text-align: center;
+  padding: 5px 10px;
+  overflow: hidden;
+  
 }
