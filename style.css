@@ -1,11 +1,10 @@
-.outfit-<uniquifier> {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+body {
+  background-color: #222222;
+  color: #AA00FF;
+  font-family: Helvetica;
+  text-align: center;
 }
 
-body {
-  background-color: #111111;
-  color: #ffffff;
+h1 {
+    font-size-adjust: 1;
 }
