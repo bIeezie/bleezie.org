@@ -1,8 +1,9 @@
 body {
   background-color: #222222;
   color: #AA00FF;
-  font-family: Helvetica;
+  font-family: Outfit;
   text-align: center;
+  padding-top: 50px;
 }
 
 h1 {
@@ -23,5 +24,24 @@ img {
   text-align: center;
   padding: 5px 10px;
   overflow: hidden;
-  color: #A8A8A8;
+  width: 100%;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  font-display: 1;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #AA00FF;
+  padding: 10px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.nav a:hover {
+  color: #DD66FF;
+  transform: scale(1.1);
 }
