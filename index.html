@@ -16,9 +16,51 @@
     <h1>welcome to bleezie</h1>
     <br>
     <br>
-      <p>i like messing with my website. everything is experimental so dont rely on any of it.</p>
+    <p>i like messing with my website. everything is experimental so don't rely on any of it.</p>
     <br>
     <br>
-      <p>check out servers on the <a href="servers.html">Servers</a> page.</p>
+    <p>check out servers on the <a href="servers.html">Servers</a> page.</p>
+
+    <h2>Leave a Note!</h2>
+    <form id="guestbook-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="guestbook-messages">
+      <h3>Guest Messages</h3>
+      <ul id="messages-list"></ul>
+    </div>
+
+    <h2>Random Quote</h2>
+    <p id="quote"></p>
+
+    <script>
+      document.getElementById('guestbook-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const name = document.getElementById('name').value;
+        const message = document.getElementById('message').value;
+        const messagesList = document.getElementById('messages-list');
+
+        const newMessage = document.createElement('li');
+        newMessage.innerHTML = `<strong>${name}</strong>: ${message}`;
+
+        messagesList.appendChild(newMessage);
+
+        document.getElementById('name').value = '';
+        document.getElementById('message').value = '';
+      });
+
+      const quotes = [
+        "The only way to do great work is to love what you do.",
+        "Life is what happens when you're busy making other plans.",
+        "Get busy living or get busy dying.",
+        "Be yourself; everyone else is already taken."
+      ];
+
+      document.getElementById("quote").innerText = quotes[Math.floor(Math.random() * quotes.length)];
+    </script>
   </body>
 </html>
