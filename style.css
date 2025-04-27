@@ -18,6 +18,7 @@ p {
 
 img {
   position: absolute;
+  border-radius: 75%;
 }
 
 .nav {
