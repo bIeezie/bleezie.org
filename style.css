@@ -19,56 +19,6 @@ img {
   position: absolute;
 }
 
-#guestbook-form {
-  display: flex;
-  flex-direction: column;
-  width: 300px;
-  margin: 20px auto;
-}
-
-#guestbook-form input, #guestbook-form textarea {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #AAA;
-  border-radius: 5px;
-}
-
-#guestbook-form button {
-  padding: 10px;
-  background-color: #AA00FF;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-#guestbook-form button:hover {
-  background-color: #DD66FF;
-}
-
-#guestbook-messages {
-  margin-top: 20px;
-  padding: 10px;
-  background-color: #222;
-  color: #AAA;
-  border-radius: 5px;
-}
-
-#guestbook-messages ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-#guestbook-messages li {
-  margin-bottom: 10px;
-}
-
-#quote {
-  font-size: 1.5rem;
-  margin-top: 20px;
-}
-
-
 .nav {
   background-color: #151515;
   text-align: center;
