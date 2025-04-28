@@ -20,7 +20,8 @@ p {
 
 img {
   position: left;
-  border-radius: 75%;
+  border-radius: 25%;
+  scale: 25%;
 }
 
 .nav {
