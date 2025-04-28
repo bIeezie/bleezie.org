@@ -41,6 +41,7 @@ img {
   padding: 10px;
   display: inline-block;
   transition: all 0.2s ease;
+  text-align: center;
 }
 
 .nav a:hover {
