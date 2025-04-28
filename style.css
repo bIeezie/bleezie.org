@@ -4,7 +4,8 @@ body {
   font-family: 'Outfit', sans-serif;
   text-align: center;
   padding-top: 50px;
-  animation: ease-in;
+  transition: ease-in;
+  transition-duration: 1s;
 }
 
 h1 {
