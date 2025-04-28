@@ -21,7 +21,7 @@ p {
 img {
   position: left;
   border-radius: 25%;
-  scale: 25%;
+  scale: 0.25;
 }
 
 .nav {
